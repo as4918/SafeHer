@@ -10,14 +10,16 @@ import os
 from dotenv import load_dotenv
 
 # Load variables from a local .env file (if present) into the environment.
+import streamlit as st
+import os
+from dotenv import load_dotenv
+
 load_dotenv()
 
-# ------------------------------------------------------------------
-# GEMINI API CONFIG
-# ------------------------------------------------------------------
 def get_gemini_api_key():
+    if "GEMINI_API_KEY" in st.secrets:
+        return st.secrets["GEMINI_API_KEY"]
     return os.getenv("GEMINI_API_KEY")
-
 
 GEMINI_API_KEY = get_gemini_api_key()
 GEMINI_MODEL_NAME = "gemini-1.5-flash"  # fast + cheap, good for a live demo
