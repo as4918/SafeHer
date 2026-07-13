@@ -6,8 +6,7 @@
 > before you go, a script if you need to leave, and a message ready the instant you need help.
 
 **Live Demo:** https://safeher-ai.streamlit.app/
-**Demo Video:** _[add a short screen-recording link here, if you make one]_
-
+**Demo Video:** (https://drive.google.com/file/d/1r0iwQgdMYkISh_u2dIG5iYzM495T5qjL/view?usp=drive_link)
 ---
 
 ## Team:
