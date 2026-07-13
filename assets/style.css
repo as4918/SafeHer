@@ -1,0 +1,242 @@
+/* ======================================================
+   SafeHer AI - Premium White & Red Theme
+   ====================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+html, body, [class*="css"] {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ---------- Background ---------- */
+
+.stApp {
+    background: #f3f5f7;
+}
+
+/* Remove Streamlit header */
+
+header {
+    background: transparent !important;
+}
+
+[data-testid="stHeader"] {
+    background: #bbdbf1 !important;
+    border-bottom: 2px solid #020f46;
+}
+
+/* ---------- Sidebar ---------- */
+
+section[data-testid="stSidebar"] {
+    background: #bbdbf1;
+    border-right: 2px solid #ececec;
+}
+
+.sidebar-brand{
+    text-align:center;
+    padding:35px 15px;
+}
+
+.sidebar-brand h2{
+    color:#102a43;
+    font-size:34px;
+    font-weight:800;
+    margin-bottom:8px;
+}
+
+.sidebar-brand p{
+    color:#52657c;
+    font-size:16px;
+    line-height:1.6;
+}
+
+/* ---------- Navigation ---------- */
+
+.stRadio label{
+    color:#102a43 !important;
+    font-weight:500;
+}
+
+/* ---------- Hero ---------- */
+
+.safeher-hero{
+    background:#ffffff;
+    border-left:8px solid #0b033a;
+    border-radius:20px;
+    padding:40px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    margin-bottom:30px;
+}
+
+.eyebrow{
+    color:#1d0349;
+    font-size:14px;
+    font-weight:700;
+    letter-spacing:1px;
+    margin-bottom:12px;
+    text-transform:uppercase;
+}
+
+.safeher-hero h1{
+    color:#102a43;
+    font-size:56px;
+    font-weight:800;
+    margin-bottom:18px;
+}
+
+.safeher-hero p{
+    color:#52657c;
+    font-size:21px;
+    line-height:1.7;
+}
+
+/* ---------- Tiles ---------- */
+
+.tile{
+    background:#bbdbf1;
+    border-radius:18px;
+    padding:24px;
+    border-top:5px solid #010242;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    transition:.25s;
+    height:100%;
+}
+
+.tile:hover{
+    transform:translateY(-6px) scale(1.02);
+    box-shadow:0 14px 28px rgba(0,0,0,.12);
+}
+
+.tag{
+    display:inline-block;
+    padding:6px 12px;
+    border-radius:50px;
+    background:#ffe6ea;
+    color:#0c032e;
+    font-size:12px;
+    font-weight:700;
+    margin-bottom:15px;
+}
+
+.tile-title{
+    color:#102a43;
+    font-size:23px;
+    font-weight:700;
+    margin-bottom:14px;
+}
+
+.tile-desc{
+    color:#52657c;
+    font-size:15px;
+    line-height:1.7;
+}
+
+/* ---------- Status Bar ---------- */
+
+.status-bar{
+    background:#fafbfc;
+    border:2px solid #160232;
+    border-radius:18px;
+    padding:18px 22px;
+    margin-top:28px;
+    box-shadow:0 6px 16px rgba(0,0,0,.05);
+}
+
+.status-item{
+    color:#102a43;
+    font-weight:600;
+    margin:10px 0;
+}
+
+/* ---------- Beacon ---------- */
+
+.beacon-dot{
+    width:10px;
+    height:10px;
+    background:#102a43;
+    border-radius:50%;
+    display:inline-block;
+    margin-right:8px;
+}
+
+.beacon-dot.offline{
+    background:#ff9800;
+}
+
+/* ---------- Buttons ---------- */
+
+.stButton>button{
+    width:100%;
+    background:#102a43 !important;
+    color:white !important;
+    border:none !important;
+    border-radius:12px !important;
+    padding:12px 18px !important;
+    font-size:16px !important;
+    font-weight:700 !important;
+    transition:.25s;
+}
+
+.stButton>button:hover{
+    background:#1b3d6d !important;
+}
+
+
+.stButton>button:hover{
+    background:#b91d2d !important;
+    transform:translateY(-2px);
+}
+
+/* ---------- Inputs ---------- */
+
+.stTextInput input,
+.stSelectbox div[data-baseweb="select"]{
+    border-radius:12px !important;
+}
+.stTextInput input{
+    background:white !important;
+    color:#102a43 !important;
+    border:2px solid #bbdbf1 !important;
+}
+
+.stTextInput input:focus{
+    border:2px solid #102a43 !important;
+}
+
+/* ---------- Cards ---------- */
+
+div[data-testid="stVerticalBlockBorderWrapper"]{
+    background:#ffffff;
+    border-radius:18px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    border:1px solid #ececec;
+}
+
+/* ---------- Metrics ---------- */
+
+div[data-testid="stMetric"]{
+    background:#ffffff;
+    border-radius:14px;
+    padding:15px;
+    border:1px solid #ececec;
+}
+
+/* ---------- Footer ---------- */
+
+.safeher-footer{
+    text-align:center;
+    color:#6b7280;
+    margin-top:50px;
+    padding:20px;
+    font-size:14px;
+}
+
+/* ---------- General Text ---------- */
+
+h1,h2,h3,h4,h5,h6{
+    color:#102a43 !important;
+}
+
+p,span,label,li{
+    color:#52657c;
+}
