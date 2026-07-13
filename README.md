@@ -8,7 +8,7 @@
 **Live Demo:** https://safeher-ai.streamlit.app/                                                
 
 
-**Demo Video:** (https://drive.google.com/file/d/1r0iwQgdMYkISh_u2dIG5iYzM495T5qjL/view?usp=drive_link)
+**Demo Video:** https://drive.google.com/file/d/1r0iwQgdMYkISh_u2dIG5iYzM495T5qjL/view?usp=drive_link                                      
 ---
 
 ## Team:
