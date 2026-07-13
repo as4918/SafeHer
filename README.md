@@ -5,20 +5,13 @@
 > Five tools for the moments before, during, and after feeling unsafe — a safety score
 > before you go, a script if you need to leave, and a message ready the instant you need help.
 
-**Live Demo:** _[add your deployed Streamlit Cloud / hosted link here]_
+**Live Demo:** https://safeher-ai.streamlit.app/
 **Demo Video:** _[add a short screen-recording link here, if you make one]_
 
 ---
 
-## Team
-
-| Name | Role |
-|------|------|
-| _Your Name_ | _e.g. Full-stack / AI Integration_ |
-| _Teammate Name_ | _e.g. UI/UX & Design_ |
-| _Teammate Name_ | _e.g. Backend & Database_ |
-
-*(Edit this table with your real team names before submitting.)*
+## Team:
+|Anushka Sharma |
 
 ---
 
